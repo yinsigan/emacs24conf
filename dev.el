@@ -18,3 +18,21 @@
              "~/.emacs.d/plugins/yasnippet")
 (require 'yasnippet)
 (yas/global-mode 1)
+
+(add-to-list 'load-path "~/.emacs.d/plugins/nav")
+(require 'nav)
+(nav-disable-overeager-window-splitting)
+
+(add-to-list 'load-path "~/.emacs.d/plugins/cedet/common")
+(require 'cedet)
+(require 'semantic-ia)
+ 
+;; Enable EDE (Project Management) features
+(global-ede-mode 1)
+ 
+(semantic-load-enable-minimum-features)
+(semantic-load-enable-code-helpers)
+;; (semantic-load-enable-guady-code-helpers)
+;; (semantic-load-enable-excessive-code-helpers)
+;; (semantic-load-enable-semantic-debugging-helpers)
+
