@@ -6,6 +6,7 @@
 (require 'keybinding)
 (require 'dev)
 (require 'c)
+(require 'rails)
 
 (push "/usr/local/bin" exec-path)
 (setq inhibit-startup-message t)
