@@ -1,3 +1,6 @@
 [submodule "plugins/yasnippet"]
 	path = plugins/yasnippet
 	url = https://github.com/capitaomorte/yasnippet.git
+[submodule "plugins/markdown"]
+	path = plugins/markdown
+	url = git://jblevins.org/git/markdown-mode.git

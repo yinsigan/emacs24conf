@@ -26,6 +26,11 @@
 (add-to-list 'load-path "~/.emacs.d/plugins/cedet/common")
 (require 'cedet)
 (require 'semantic-ia)
+
+(add-to-list 'load-path "~/.emacs.d/plugins/markdown") 
+(autoload 'markdown-mode "markdown-mode.el" "Major mode for editing Markdown files" t)
+(setq auto-mode-alist (cons '("\\.text" . markdown-mode) auto-mode-alist))
+(setq auto-mode-alist (cons '("\\.md" . markdown-mode) auto-mode-alist))
  
 ;; Enable EDE (Project Management) features
 (global-ede-mode 1)
