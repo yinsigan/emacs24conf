@@ -3,3 +3,10 @@ cd ..
 ls
 cd c
 ls
+ls
+cd
+ls
+cd stu
+cd Studyspace/c
+ls
+exit
