@@ -6,7 +6,6 @@
 (require 'keybinding)
 (require 'dev)
 (require 'c)
-(require 'rails)
 
 (push "/usr/local/bin" exec-path)
 (setq inhibit-startup-message t)
@@ -34,6 +33,6 @@
 
 (show-paren-mode t)
 
-(set-frame-font "Monaco-14")
+(set-frame-font "Menlo-12")
 
-(load-theme 'solarized-dark t)
+;(load-theme 'solarized-dark t)
