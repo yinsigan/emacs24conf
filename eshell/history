@@ -10,3 +10,18 @@ cd stu
 cd Studyspace/c
 ls
 exit
+ls
+cd Studyspace/
+ls
+cd c
+ls
+rm a.out 
+ls
+gcc helloworld.c 
+./a.out 
+rm a.out 
+ls
+vim prac.c 
+uname -a
+ls
+vim
