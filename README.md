@@ -8,3 +8,10 @@
 ## Mac OS X下如何安装emacs?
 
 使用homebrew包管理: brew install emacs --HEAD --use-git-head --cocoa
+
+## 插件管理
+
+**我使用了Submodule来管理各类emacs插件，这样能够方便的进行插件更新，在clone完成这个项目后，请初始化并更新插件**
+
+* git submodule init
+* git submodule update
