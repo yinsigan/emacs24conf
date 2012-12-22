@@ -2,10 +2,13 @@
 
 (add-to-list 'load-path "~/.emacs.d")
 (add-to-list 'custom-theme-load-path "~/.emacs.d/themes")
+(setq default-directory "~/")
 
 (require 'keybinding)
 (require 'dev)
 (require 'c)
+(require 'vimpulse)
+(require 'go-mode)
 
 (push "/usr/local/bin" exec-path)
 (setq inhibit-startup-message t)
@@ -33,9 +36,9 @@
 
 (show-paren-mode t)
 
-(set-frame-font "Menlo-12")
+(set-frame-font "Monospace")
 
-(load-theme' solarized-dark t)
+; (load-theme' solarized-dark t)
 (custom-set-variables
  ;; custom-set-variables was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
@@ -48,3 +51,5 @@
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
  )
+(add-to-list 'auto-mode-alist '("Gemfile\\'"  . ruby-mode))
+(add-to-list 'auto-mode-alist '("Gemfile\\.lock\\'"  . ruby-mode))

@@ -10,7 +10,7 @@
 (require 'nav)
 (nav-disable-overeager-window-splitting)
 
-(add-to-list 'load-path "~/.emacs.d/plugins/markdown") 
+(add-to-list 'load-path "~/.emacs.d/plugins/markdown")
 (autoload 'markdown-mode "markdown-mode.el" "Major mode for editing Markdown files" t)
 (setq auto-mode-alist (cons '("\\.text" . markdown-mode) auto-mode-alist))
 (setq auto-mode-alist (cons '("\\.md" . markdown-mode) auto-mode-alist))
