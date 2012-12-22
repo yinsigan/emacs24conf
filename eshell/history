@@ -25,3 +25,12 @@ vim prac.c
 uname -a
 ls
 vim
+go run a.go
+exit
+go run a.go
+exit
+go run a.go
+go run a.go
+go run a.go
+go run a.go
+go run a.go

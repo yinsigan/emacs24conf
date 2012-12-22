@@ -16,7 +16,7 @@
 (setq make-backup-files nil)
 (setq auto-save-default nil)
 
-(setq-default tab-width 2)
+(setq-default tab-width 4)
 (setq-default indent-tabs-mode nil)
 
 (setq column-number-mode t)

@@ -6,10 +6,10 @@
 (global-set-key (kbd "M-k") 'kill-buffer-and-window)
 (global-set-key [f8] 'nav-toggle)
 
-(global-set-key [C-left] 'windmove-left)          ; move to left window
-(global-set-key [C-right] 'windmove-right)        ; move to right window
-(global-set-key [C-up] 'windmove-up)              ; move to upper window
-(global-set-key [C-down] 'windmove-down)          ; move to lower window
+(global-set-key [S-left] 'windmove-left)          ; move to left window
+(global-set-key [S-right] 'windmove-right)        ; move to right window
+(global-set-key [S-up] 'windmove-up)              ; move to upper window
+(global-set-key [S-down] 'windmove-down)          ; move to lower window
 
 ;; Reload File
 (global-set-key [f5] 'revert-buffer)
