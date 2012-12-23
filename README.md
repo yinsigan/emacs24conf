@@ -1,4 +1,4 @@
-# ghosTM55的emacs 24配置文件
+# emacs 24配置文件
 
 **请注意这是emacs 24的配置文件，最好不要应用在emacs 23上**
 
